@@ -1,0 +1,2 @@
+﻿Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\EMDMgmt" -Recurse | Where {Get-ItemProperty -Path $_.PSPath -Name DeviceStatus -EA SilentlyContinue} | Foreach {Set-ItemProperty -Name DeviceStatus -Path $_.PSPath -Value 1}
+Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\EMDMgmt" -Recurse | Where {Get-ItemProperty -Path $_.PSPath -Name DeviceStatus -EA SilentlyContinue} | Foreach {Set-ItemProperty -Name CacheSizeInMB -Path $_.PSPath -Value 1024}

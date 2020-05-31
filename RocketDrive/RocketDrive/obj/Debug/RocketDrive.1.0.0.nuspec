@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RocketDrive</id>
+    <version>1.0.0</version>
+    <authors>RocketDrive</authors>
+    <owners>RocketDrive</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>50082508_2367269983496856_3513072494082785280_o-removebg-preview.png</icon>
+    <projectUrl>https://rocketdriveee.github.io/RocketDrive/</projectUrl>
+    <description>RocketDrive.
+He really speeds up your system..</description>
+    <repository url="https://github.com/RocketDriveee/RocketDrive" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\q1\source\repos\RocketDrive\RocketDrive\bin\Debug\netcoreapp3.1\RocketDrive.runtimeconfig.json" target="lib\netcoreapp3.1\RocketDrive.runtimeconfig.json" />
+    <file src="C:\Users\q1\source\repos\RocketDrive\RocketDrive\bin\Debug\netcoreapp3.1\RocketDrive.dll" target="lib\netcoreapp3.1\RocketDrive.dll" />
+    <file src="E:\images\img\50082508_2367269983496856_3513072494082785280_o-removebg-preview.png" target="50082508_2367269983496856_3513072494082785280_o-removebg-preview.png" />
+  </files>
+</package>

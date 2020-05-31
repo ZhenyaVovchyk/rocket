@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>RocketDrive.App</StartupObject>
+    <ApplicationIcon>res\RocketDrive.ico</ApplicationIcon>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>NotBad</Company>
+    <Description>RocketDrive.
+He really speeds up your system..</Description>
+    <PackageIcon>50082508_2367269983496856_3513072494082785280_o-removebg-preview.png</PackageIcon>
+    <RepositoryUrl>https://github.com/RocketDriveee/RocketDrive</RepositoryUrl>
+    <PackageProjectUrl>https://rocketdriveee.github.io/RocketDrive/</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>RocketDrive.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="res\img\1.png" />
+    <None Remove="res\RocketDrive.ico" />
+    <None Remove="res\script\deleteAll.ps1" />
+    <None Remove="res\script\dismount.ps1" />
+    <None Remove="res\script\mount.ps1" />
+    <None Remove="res\script\re11.ps1" />
+    <None Remove="res\script\run11.ps1" />
+    <None Include="E:\images\img\50082508_2367269983496856_3513072494082785280_o-removebg-preview.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="res\img\1.png" />
+    <Resource Include="res\RocketDrive.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="res\script\deleteAll.ps1" />
+    <Resource Include="res\script\dismount.ps1" />
+    <Resource Include="res\script\mount.ps1" />
+    <Resource Include="res\script\re11.ps1" />
+    <Resource Include="res\script\run11.ps1" />
+  </ItemGroup>
+
+</Project>

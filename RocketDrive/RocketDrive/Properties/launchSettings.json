@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RocketDrive": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\RocketDrive"
+    }
+  }
+}
