@@ -17,6 +17,8 @@ He really speeds up your system..</Description>
     <FileVersion>1.0.0.1</FileVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>RocketDrive.pfx</AssemblyOriginatorKeyFile>
+    <Authors>Zhenya Vovchyk</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

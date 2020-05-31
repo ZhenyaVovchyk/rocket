@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("RocketDrive.\r\nHe really speeds up your system..")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RocketDrive")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RocketDrive")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.1")]
